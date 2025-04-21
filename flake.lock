@@ -14,9 +14,30 @@
         "url": "https://flakehub.com/f/NixOS/nixpkgs/%2A.tar.gz"
       }
     },
+    "nshield": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1745197689,
+        "narHash": "sha256-lnLA4bQCtAcKq7sXFTyyi0TjhPkuaj93rIXZiOZCBkA=",
+        "owner": "ddz",
+        "repo": "ncipher-nshield-solo",
+        "rev": "28bccf87cd9a6b2d08f1a5cf9d92b0ec166677e2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ddz",
+        "repo": "ncipher-nshield-solo",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "nshield": "nshield"
       }
     }
   },
